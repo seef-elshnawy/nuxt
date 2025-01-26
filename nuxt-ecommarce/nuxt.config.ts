@@ -7,7 +7,7 @@ export default defineNuxtConfig({
   alias: {
     "@": path.resolve(__dirname, "src"),
   },
-  css: ["~/assets/css/main.css"],
+  css: ["~/assets/css/main.scss"],
   vite: {
     plugins: [tailwindcss()],
   },
